@@ -5,7 +5,7 @@ This repository contains a ROS 2 workspace for simulating a Universal Robots UR5
 
 ---
 
-### ## ⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
 1.  **Prerequisites:** Ensure you have ROS 2 Humble and Gazebo installed.
 
@@ -16,7 +16,7 @@ This repository contains a ROS 2 workspace for simulating a Universal Robots UR5
 
 ---
 
-### ## 🚀 Running the Simulation
+### 🚀 Running the Simulation
 
 After the setup is complete, run the simulation by following these steps in order from your workspace root (`~/workspaces`).
 
