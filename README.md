@@ -1,6 +1,6 @@
 # ROS 2 Gazebo Simulation: UR5 Pick and Place
 
-![Gazebo Simulation with UR5 Arm](./path/to/your/image.png)
+![Gazebo Simulation with UR5 Arm](screenshot1.png)
 This repository contains a ROS 2 workspace for simulating a Universal Robots UR5 arm performing a pick and place task in Gazebo.
 
 ---
