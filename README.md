@@ -1,3 +1,5 @@
+![movement.gif](movement.gif)
+
 Universal_Robots_ROS2_Gazebo_Simulation
 ==========================================
 
@@ -76,3 +78,7 @@ Example using MoveIt with simulated robot:
 ```
 ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py
 ```
+
+![screenshot2.png](screenshot2.png)
+
+Note: The simulation may not run identically every time.
