@@ -65,19 +65,20 @@ To configure and build workspace execute following commands:
   ```
 
 ## Running Simulation
-```
-ros2 launch ur_simulation_gazebo ur_sim_control.launch.py
-```
+1.  **Build the Workspace:** Compile the packages using `colcon`.
+    ```bash
+    colcon build
+    ```
 
-Move robot using test script from  `ur_robot_driver` package (if you've installed that one):
-```
-ros2 launch ur_robot_driver test_joint_trajectory_controller.launch.py
-```
+2.  **Source the Overlay:** In every new terminal you open, you must source the setup file to make the ROS 2 packages available.
+    ```bash
+    source install/setup.bash
+    ```
 
-Example using MoveIt with simulated robot:
-```
-ros2 launch ur_simulation_gazebo ur_sim_moveit.launch.py
-```
+3.  **Launch the Simulation:** Start the Gazebo simulation with the UR5 robot performing the pick and place task.
+    ```bash
+    ros2 launch ur_simulation_gazebo ur5_pick_and_place.launch.py
+    ```
 
 ![screenshot2.png](screenshot2.png)
 
