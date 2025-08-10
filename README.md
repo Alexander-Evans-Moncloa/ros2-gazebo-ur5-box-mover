@@ -80,6 +80,9 @@ To configure and build workspace execute following commands:
     ros2 launch ur_simulation_gazebo ur5_pick_and_place.launch.py
     ```
 
+
+    
+
 ![screenshot2.png](screenshot2.png)
 
 Note: The simulation may not run identically every time. Below is from an iteration where the path collided with the floor.
